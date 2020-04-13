@@ -1,0 +1,35 @@
+{
+  "name": "es6-express-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate with Express, ES6, Nodemon...",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "boilerplate",
+    "nodejs",
+    "express",
+    "backend",
+    "es6",
+    "nodemon"
+  ],
+  "author": "Roshan K Gujarathi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.22.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/runtime": "^7.9.2",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "nodemon": "^2.0.3"
+  }
+}
