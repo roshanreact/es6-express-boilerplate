@@ -10,10 +10,10 @@ import router from "./src";
 const app = express();
 const PORT = 4000;
 
-// Helmets
+// Helmet
 app.use(helmet());
 
-// CORSd
+// CORS
 app.use(cors());
 
 // BodyParser Setup
